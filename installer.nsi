@@ -3,7 +3,7 @@ Name "elpAudio"
 Icon "ico.ico"
 RequestExecutionLevel admin
 
-InstallDir "C:\Program Files\elpAudio"
+InstallDir "$Profile\AppData\Local\elpAudio"
 InstallDirRegKey HKLM "Software\NSIS_EA" "Install_Dir"
 
 Unicode True
