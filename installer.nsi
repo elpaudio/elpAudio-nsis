@@ -60,7 +60,6 @@ Section "elpAudio" Installer
   
   ; close elpAudio
   ExecWait "taskkill /f /im elpAudio.exe"
-  ExecWait "taskkill /f /im elpAudio-nochromakey.exe"
   
   ; Set output path to the installation directory.
   SetOutPath $INSTDIR
